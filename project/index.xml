@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Chang Shu</title>
+    <link>https://shuchang.github.io/project/</link>
+      <atom:link href="https://shuchang.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shuchang.github.io/media/icon_hu5f1e528d2c2aee17f0e99aeff4721ac0_25808_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://shuchang.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Learning Generalizable Policies for Assembly Sequence Planning</title>
+      <link>https://shuchang.github.io/project/assembly/</link>
+      <pubDate>Sat, 30 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://shuchang.github.io/project/assembly/</guid>
+      <description>&lt;p&gt;• Formulate the robot assembly sequencing as a combinatorial optimization problem over graph and solve it with a generalizable graph-based reinforcement learning framework&lt;/p&gt;
+&lt;p&gt;• Build a physics simulation environment to generate feasibility constraints, i.e., interference matrices and stability matrices, of the assembly objects with PyBullet&lt;/p&gt;
+&lt;p&gt;• Implement the graph neural networks to encode the state of the environment and build the reinforcement learning algorithm to learn a task and motion planner for the assembly sequence planning&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploiting Time Series for Human Activity Recognition with Radar</title>
+      <link>https://shuchang.github.io/project/continuoushar/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://shuchang.github.io/project/continuoushar/</guid>
+      <description>&lt;p&gt;This is the undergraduate final year project. In this project, the radar-based human activity recognition (HAR) problem is analysed in details. Specifically, recurrent neural networks (RNNs) that exploit time series for classification are employed. In the first part of experiments, raw radar data are processed in the frequency domain, generating range profiles and micro-Doppler spectrograms, which reveal the change of range and speed with time. In the second part, LSTM and Bi-LSTM architectures are used to build RNN models that are able to preserve long time dependencies. Results show that applying Bi-LSTM architecture to micro-Doppler spectrograms is the most effective method, achieving an F1 score of over 91%. The Bi-LSTM model outperforms the LSTM model by 6% on micro-Doppler spectrograms, proving that the use of future information contributes to the improvement of performance.&lt;/p&gt;
+&lt;p&gt;Report and Code of this project can be viewed by clicking the corresponding buttons above.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Mobile Robot Design in Webots</title>
+      <link>https://shuchang.github.io/project/rover/</link>
+      <pubDate>Sat, 27 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://shuchang.github.io/project/rover/</guid>
+      <description>&lt;p&gt;This is an undergraduate team design project, where we developed an autonomous rover in Webots that was able to perform a set of given tasks, including path-following, bridge-crossing, color detection, gripper control, etc.&lt;/p&gt;
+&lt;p&gt;In this project, I implemented the perceptual algorithms, including beacon detection, color recognition, and edge detection.&lt;/p&gt;
+&lt;p&gt;A short demo of our multifunctional rover can be viewed by clicking the video button above.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
